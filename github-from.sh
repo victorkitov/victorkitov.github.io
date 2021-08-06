@@ -1,2 +1,3 @@
+#!/bin/bash
 git pull
-read -n 1 -s -r -p "Press any key to continue"
+read -p "Press enter to continue"
