@@ -1,3 +1,14 @@
+h4 {
+    display: block; /* Ensure it is visible by default */
+}
+
+/* Hide <h4> on narrow screens */
+@media screen and (max-width: 600px) {
+    h5 {
+        display: none; /* Hide the <h4> when the screen width is 600px or less */
+    }
+}
+
 body { 
   background-color: RGB(220,220,220)	
 }
