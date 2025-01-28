@@ -1,9 +1,9 @@
-h4 {
+h5 {
     display: block; /* Ensure it is visible by default */
 }
 
 /* Hide <h4> on narrow screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 92ex) {
     h5 {
         display: none; /* Hide the <h4> when the screen width is 600px or less */
     }
